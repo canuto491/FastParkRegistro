@@ -1,0 +1,191 @@
+/* CSS REGISTO */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);    /* IMPORTAR FONTES*/
+
+*{ margin:0;padding:0; }    /* Limpar */
+
+body {
+    background: white;
+    font-family:'Open Sans',sans-serif;
+	
+}
+
+/* REGISTO */
+.caixa_registo{
+	float:right;
+	width:25%;
+	margin-top:5%;
+	margin-right:5%;
+	}
+		
+.slideshowzone{
+	float:left;
+	width: 65%;
+	margin-top:5%;
+	margin-left:5%;
+	}
+	
+/*
+.caixa_registo2 {
+    width: 30%;
+	float:right;*/
+    /*left: 50%;*/
+    /*top: 40%;*/
+   /*   position: fixed;
+
+    transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+}
+
+*/
+
+/* Título do registo */
+.caixa_registo h1 {
+    background: #3399cc;
+    padding: 5%;
+    font-size: 160%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Formulário (corpo do registo) */
+form {
+    background: #f0f0f0;
+    padding: 2% 4% 10%;
+}
+
+/* Caixas de texto */
+input[type="email"], input[type="password"], #username {
+    width: 92%;
+    background: #fff;
+    margin-bottom: 9px;
+    border: 1px solid #ccc;
+    padding: 3%;
+    font-family:'Open Sans',sans-serif;
+    font-size: 85%;
+    color: #555;
+    outline-color: #3399cc; /*IMPORTANTE*/
+}
+
+
+/* Botão registar */
+input[type="submit"] {
+    width: 100%;
+    background: #3399cc;
+    border: 0;
+    padding: 4%;
+    margin-top: 5%;
+    font-family:'Open Sans',sans-serif;
+    font-size: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: background .3s;
+    -webkit-transition: background .3s;
+
+
+}
+
+input[type="submit"]:hover {
+  background:#2288bb;
+}
+
+
+/*NEW - FALTA RESPONSIVE*/
+.checkbox {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px; 
+    line-height:18px;
+    padding:4%;
+    padding-bottom: 0%;
+}
+input[type=checkbox] {
+ display:none;
+}
+.checkbox:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align:middle;
+    background-color:  #0088cc;
+    color: #f3f3f3;
+    text-align: center;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);   
+    border-radius: 3px;
+}
+input[type=checkbox]:checked + .checkbox:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+}
+
+select {
+  /*appearance: none;*/
+  border: 1px solid #ccc;
+  border-radius: 0;
+  font-size: 100%;
+  padding: 2%;
+  font-family: 'Open Sans',sans-serif;
+  width: 100%;
+  /*background: white url(http://www.8bitsports.net/wp-content/themes/meeta/functions/wpzoom/assets/images/jquery.selectBox-arrow.gif) no-repeat 95% center;*/
+  /* background: url(silla.jpg) no-repeat right white;*/
+  /*text-indent: 0.01px;*/
+  /*text-overflow: '';*/
+  color: #555;
+outline: none;  /*IMPORTANTE*/
+}
+
+
+/*
+::-ms-expand {
+    display: none;
+}
+*/
+
+.opcoes {
+    font-family: 'Open Sans',sans-serif;
+    color: #555;
+
+}
+
+
+/*TEST*/
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, select:focus {
+ box-shadow: inset 0 -5px 45px rgba(187,222,251 ,1), 0 1px 1px rgba(255,255,255,0.2);
+  }
+
+
+.icon_select {
+    overflow: auto;
+    margin-bottom: 3%;
+}
+
+.cadeira {
+    float:left;
+    width: 20%;
+    margin: 1%;
+}
+
+.check_pref {
+    width: 56%;
+    float: right;
+    padding-left: 2%;
+    padding-top: 2.5%;
+    padding-right: 20%;
+}
+
+.icono {
+ font-size: 230%;
+  color: #0088cc;
+  background-color: white;
+  border-radius: 20%;
+  border: 1px solid #ccc;
+}
+
+#chair {
+    padding-left: 15%;
+    padding-right: 15%;
+}
